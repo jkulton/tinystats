@@ -1,5 +1,7 @@
 # Tinystats
 
+![Tinystats screenshot](./screenshot.png)
+
 A minimal stats dashboard built from query params
 
 ## Setup + Run
