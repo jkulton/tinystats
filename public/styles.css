@@ -12,6 +12,11 @@ body {
   height: 100%;
 }
 
+h1,
+h2 {
+  letter-spacing: -.067rem;
+}
+
 body {
   display: flex;
   justify-content: center;
@@ -33,12 +38,34 @@ body > section {
 section > h1 {
   margin: 0;
   font-size: 5em;
-  letter-spacing: -.067rem;
   font-weight: 700;
 }
 
 section > h2 {
   opacity: .2;
   margin: 2rem 0 0 0;
-  letter-spacing: -.067rem;
+}
+
+.intro {
+  text-align: center;
+  padding: 100px 50px 0 50px;
+}
+
+.intro h1 {
+  font-size: 4em;
+  font-weight: 700;
+}
+
+.intro p {
+  max-width: 768px;
+  margin-top: 2rem;
+  color: #a6a6a6;
+}
+
+.intro p a {
+  color: #ececec;
+  background: #15191f;
+  display: block;
+  padding: 1rem;
+  border-radius: 4px;
 }
