@@ -12,8 +12,7 @@ body {
   height: 100%;
 }
 
-h1,
-h2 {
+h1 {
   letter-spacing: -.067rem;
 }
 
@@ -33,6 +32,8 @@ body > section {
   align-items: center;
   justify-content: center;
   flex-wrap: wrap;
+  border: 1px solid #272a2f;
+  border-radius: 8px;
 }
 
 section > h1 {
@@ -42,8 +43,8 @@ section > h1 {
 }
 
 section > h2 {
-  opacity: .2;
   margin: 2rem 0 0 0;
+  color: #bbbbbb;
 }
 
 .intro {
@@ -59,7 +60,7 @@ section > h2 {
 .intro p {
   max-width: 768px;
   margin-top: 2rem;
-  color: #a6a6a6;
+  color: #eeeeee;
 }
 
 .intro p a {
